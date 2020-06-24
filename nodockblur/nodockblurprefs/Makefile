@@ -7,6 +7,7 @@ NoDockBlurPrefs_INSTALL_PATH = /Library/PreferenceBundles
 NoDockBlurPrefs_FRAMEWORKS = UIKit
 NoDockBlurPrefs_PRIVATE_FRAMEWORKS = Preferences
 NoDockBlurPrefs_CFLAGS = -fobjc-arc
+NoDockBlurPrefs_EXTRA_FRAMEWORKS += Cephei CepheiPrefs
 
 include $(THEOS_MAKE_PATH)/bundle.mk
 
