@@ -11,3 +11,6 @@ NoDockBlur_FILES = Tweak.x
 NoDockBlur_CFLAGS = -fobjc-arc
 
 include $(THEOS_MAKE_PATH)/tweak.mk
+SUBPROJECTS += nodockblur
+SUBPROJECTS += nodockblurprefs
+include $(THEOS_MAKE_PATH)/aggregate.mk
