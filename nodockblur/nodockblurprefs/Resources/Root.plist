@@ -5,16 +5,6 @@
 	<key>items</key>
 	<array>
 		<dict>
-    	<key>cell</key>
-    	<string>PSGroupCell</string>
-    	<key>headerCellClass</key>
-    	<string>HBImageTableCell</string>
-    	<key>height</key>
-    	<integer>250</integer>
-    	<key>icon</key>
-    	<string>header.png</string>
-		</dict>
-		<dict>
 			<key>cell</key>
 			<string>PSGroupCell</string>
 			<key>label</key>

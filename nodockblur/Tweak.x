@@ -13,6 +13,8 @@ BOOL isEnabled; // Blank Enabled Variable
 
 // Load Preferences
 %ctor {
+	// Adds pref variables
 	HBPreferences *preferences = [[HBPreferences alloc] initWithIdentifier:@"com.roxiun.nodockblurprefs"];
 	[preferences registerBool:&isEnabled default:YES forKey:@"isEnabled"];
+
 }
