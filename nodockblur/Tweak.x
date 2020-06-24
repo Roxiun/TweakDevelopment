@@ -1,5 +1,14 @@
 #import <Cephei/HBPreferences.h> // Import Preferences
 
+%hook HBForceCepheiPrefs
+
++ (BOOL)forceCepheiPrefsWhichIReallyNeedToAccessAndIKnowWhatImDoingISwear {
+    return YES;
+}
+
+%end
+#
+
 BOOL isEnabled; // Blank Enabled Variable
 
 %hook SBDockView // Hook into Dock
