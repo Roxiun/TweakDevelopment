@@ -12,6 +12,5 @@ NoDockBlur_CFLAGS = -fobjc-arc
 NoDockBlur_EXTRA_FRAMEWORKS += Cephei CepheiPrefs
 
 include $(THEOS_MAKE_PATH)/tweak.mk
-SUBPROJECTS += nodockblur
 SUBPROJECTS += nodockblurprefs
 include $(THEOS_MAKE_PATH)/aggregate.mk
