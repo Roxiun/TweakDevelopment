@@ -9,6 +9,5 @@ TWEAK_NAME = NoDockBlur
 
 NoDockBlur_FILES = Tweak.x
 NoDockBlur_CFLAGS = -fobjc-arc
-NoDockBlur_EXTRA_FRAMEWORKS += Cephei CepheiPrefs
 
 include $(THEOS_MAKE_PATH)/tweak.mk
