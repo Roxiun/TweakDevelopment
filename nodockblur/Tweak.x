@@ -7,7 +7,6 @@
 }
 
 %end
-#
 
 BOOL isEnabled; // Blank Enabled Variable
 
@@ -18,7 +17,6 @@ BOOL isEnabled; // Blank Enabled Variable
 	}
 }
 %end
-
 
 // Load Preferences
 %ctor {

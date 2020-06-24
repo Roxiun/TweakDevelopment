@@ -27,7 +27,7 @@
 		<dict>
 			<key>cell</key>
 			<string>PSGroupCell</string>
-	  </dict>
+	  	</dict>
 		<dict>
 			<key>cell</key>
 			<string>PSButtonCell</string>
@@ -55,16 +55,16 @@
 			<string>https://github.com/Roxiun/</string>
 		</dict>
 		<dict>
-    	<key>cell</key>
-    	<string>PSGroupCell</string>
-    	<key>footerText</key>
-    	<string>Made By Roxiun</string>
+    		<key>cell</key>
+    		<string>PSGroupCell</string>
+    		<key>footerText</key>
+    		<string>Made By Roxiun</string>
 		</dict>
 		<dict>
-    	<key>cell</key>
-    	<string>PSGroupCell</string>
-    	<key>footerText</key>
-    	<string>NoDockBlur v0.0.1~beta2</string>
+    		<key>cell</key>
+    		<string>PSGroupCell</string>
+    		<key>footerText</key>
+    		<string>NoDockBlur v0.0.1~beta2</string>
 		</dict>
 	</array>
 	<key>title</key>

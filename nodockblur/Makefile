@@ -1,4 +1,3 @@
-
 INSTALL_TARGET_PROCESSES = SpringBoard
 
 ARCHS = armv7 armv7s arm64
